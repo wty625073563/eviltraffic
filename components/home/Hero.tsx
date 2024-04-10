@@ -1,7 +1,7 @@
-"use client";
-import { LineText } from "@/components/LineText";
-import CTAButton from "@/components/home/CTAButton";
-import { motion } from "framer-motion";
+'use client'
+import { LineText } from '@/components/LineText'
+import CTAButton from '@/components/home/CTAButton'
+import { motion } from 'framer-motion'
 
 const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
   return (
@@ -13,26 +13,26 @@ const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {
           duration: 0.3,
           ease: [0, 0.71, 0.2, 1],
           scale: {
-            type: "tween", // tween spring
+            type: 'tween' // tween spring
             // damping: 10, // if spring
             // stiffness: 50, // if spring
             // restDelta: 0.001, // if spring
-          },
+          }
         }}
       >
         <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-16 md:pt-24 text-center">
           <h1>
             {locale.title1} <LineText>{locale.title2}</LineText> {locale.title3}
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-2xl tracking-tight text-slate-700 dark:text-slate-400">
+          <h2 className="mx-auto mt-6 max-w-2xl text-2xl tracking-tight text-slate-700 dark:text-slate-400">
             {/* {siteConfig.description} */}
             {locale.description}
-          </p>
+          </h2>
         </section>
       </motion.div>
       <CTAButton locale={CTALocale}></CTAButton>
     </>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

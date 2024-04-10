@@ -1,4 +1,4 @@
-import { IconType } from "react-icons"
+import { IconType } from 'react-icons'
 
 export type AuthorsConfig = {
   name: string
@@ -20,15 +20,16 @@ export type ThemeColor = {
 }
 export type SiteConfig = {
   name: string
+  mainColor: string
   description: string
   url: string
   keywords: string[]
   authors: AuthorsConfig[]
   creator: string
   openSourceURL?: string
-  ogImage: string
+  ogImage?: string
   headerLinks: Link[]
-  footerLinks: Link[],
+  footerLinks: Link[]
   footerProducts: ProductLink[]
   metadataBase: URL | string
   themeColors?: string | ThemeColor[]
@@ -46,12 +47,12 @@ export type SiteConfig = {
     description: string
     siteName: string
     images?: string[]
-  },
+  }
   twitter: {
     card: string
     title: string
     description: string
     images?: string[]
     creator: string
-  },
+  }
 }
