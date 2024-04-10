@@ -1,12 +1,12 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react'
 
 type LineTextProps = {
-  children: ReactNode;
-};
+  children: ReactNode
+}
 
 export const LineText = ({ children }: LineTextProps) => {
   return (
-    <span className="relative whitespace-nowrap text-blue-600">
+    <span className="relative whitespace-nowrap text-[#5e17eb]">
       <svg
         aria-hidden="true"
         viewBox="0 0 418 42"
@@ -17,5 +17,5 @@ export const LineText = ({ children }: LineTextProps) => {
       </svg>
       <span className="relative">{children}</span>
     </span>
-  );
-};
+  )
+}

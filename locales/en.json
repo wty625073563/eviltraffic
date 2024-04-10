@@ -1,9 +1,9 @@
 {
   "Hero": {
-    "title1": "Ship",
-    "title2": "Landing Page",
-    "title3": "Fast",
-    "description": "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour."
+    "title1": "Fast",
+    "title2": "Amplify Your Voice",
+    "title3": "",
+    "description": "Stand out in the digital age with our high-quality social media metrics buying services. Quickly gain genuine followers, likes, comments, and shares to enhance your online visibility, authority, and make your brand shine in the competitive online world."
   },
   "SocialProof": {
     "maker": "makers ship fast"
@@ -38,6 +38,6 @@
     "description6": "!"
   },
   "CTAButton": {
-    "title": "Get Boilerplate"
+    "title": "Download Now !"
   }
 }

@@ -1,43 +1,43 @@
-"use client";
-import HeaderLinks from "@/components/header/HeaderLinks";
-import { LangSwitcher } from "@/components/header/LangSwitcher";
-import { siteConfig } from "@/config/site";
-import { MenuIcon } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
-import { CgClose } from "react-icons/cg";
-import { ThemedButton } from "../ThemedButton";
+'use client'
+import HeaderLinks from '@/components/header/HeaderLinks'
+import { LangSwitcher } from '@/components/header/LangSwitcher'
+import { siteConfig } from '@/config/site'
+import { MenuIcon } from 'lucide-react'
+import Image from 'next/image'
+import Link from 'next/link'
+import { useState } from 'react'
+import { CgClose } from 'react-icons/cg'
+import { ThemedButton } from '../ThemedButton'
 
 const links = [
   {
-    label: "Features",
-    href: "#Features",
+    label: 'Features',
+    href: '#Features'
+  },
+  // {
+  //   label: "Pricing",
+  //   href: "#Pricing",
+  // },
+  {
+    label: 'Wall of Love',
+    href: '#WallOfLove'
   },
   {
-    label: "Pricing",
-    href: "#Pricing",
-  },
-  {
-    label: "Wall of Love",
-    href: "#WallOfLove",
-  },
-  {
-    label: "FAQ",
-    href: "#FAQ",
-  },
-];
+    label: 'FAQ',
+    href: '#FAQ'
+  }
+]
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
     <header className="py-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <nav className="relative z-50 flex justify-between">
         <div className="flex items-center md:gap-x-12">
           <Link
             href="/"
-            aria-label="Landing Page Boilerplate"
-            title="Landing Page Boilerplate"
+            aria-label={siteConfig.name}
+            title={siteConfig.name}
             className="flex items-center space-x-1 font-bold"
           >
             <Image
@@ -48,13 +48,13 @@ const Header = () => {
               height={32}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
-              Landing Page Boilerplate
+              {siteConfig.name}
             </span>
           </Link>
         </div>
 
         <ul className="hidden items-center gap-6 md:flex">
-          {links.map((link) => (
+          {links.map(link => (
             <li key={link.label}>
               <Link
                 href={link.href}
@@ -90,8 +90,8 @@ const Header = () => {
                   <div>
                     <Link
                       href="/"
-                      aria-label="Landing Page Boilerplate"
-                      title="Landing Page Boilerplate"
+                      aria-label={siteConfig.name}
+                      title={siteConfig.name}
                       className="inline-flex items-center"
                     >
                       <Image
@@ -102,7 +102,7 @@ const Header = () => {
                         height={32}
                       />
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-950 dark:text-gray-300">
-                        Landing Page
+                        {siteConfig.name}
                       </span>
                     </Link>
                   </div>
@@ -119,7 +119,7 @@ const Header = () => {
                 </div>
                 <nav>
                   <ul className="space-y-4">
-                    {links.map((link) => (
+                    {links.map(link => (
                       <li key={link.label}>
                         <Link
                           href={link.href}
@@ -150,7 +150,7 @@ const Header = () => {
         </div>
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
