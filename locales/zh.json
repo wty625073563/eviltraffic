@@ -24,6 +24,12 @@
     "description2": "请告诉我",
     "description3": "，我会在这里展示你的推文和推荐。"
   },
+  "AllProducts": {
+    "title": "支持的社交媒体",
+    "description1": "如果您在应用程序中找不到想要的平台，",
+    "description2": "请告诉我",
+    "description3": "。我会尽力为您找到获取它的方法。"
+  },
   "FAQ": {
     "title": "FAQs",
     "description": "这里有一些最常见的问题。"

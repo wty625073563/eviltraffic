@@ -1,10 +1,10 @@
+import AllProducts from '@/components/home/AllProducts'
 import CTA from '@/components/home/CTA'
 import FAQ from '@/components/home/FAQ'
 import Feature from '@/components/home/Feature'
 import Hero from '@/components/home/Hero'
 import ScrollingLogos from '@/components/home/ScrollingLogos'
 import SocialProof from '@/components/home/SocialProof'
-import WallOfLove from '@/components/home/WallOfLove'
 import { defaultLocale, getDictionary } from '@/lib/i18n'
 
 export default async function LangHome({ params: { lang } }: { params: { lang: string } }) {
@@ -29,7 +29,8 @@ export default async function LangHome({ params: { lang } }: { params: { lang: s
 
       {/* Testimonials / Wall of Love */}
       {/* <WallOfLove id="WallOfLove" locale={dict.WallOfLove} /> */}
-      <WallOfLove id="AllProducts" locale={dict.WallOfLove} />
+      {/* <WallOfLove id="AllProducts" locale={dict.WallOfLove} /> */}
+      <AllProducts id="AllProducts" locale={dict.AllProducts} />
 
       {/* FAQ (Frequently Asked Questions) */}
       <FAQ id="FAQ" locale={dict.FAQ} langName={langName} />

@@ -21,7 +21,7 @@ import {
   BiLogoYoutube
 } from 'react-icons/bi'
 
-export const LOGOS = [
+export const Products = [
   {
     name: 'Instagram',
     icon: BiLogoInstagram

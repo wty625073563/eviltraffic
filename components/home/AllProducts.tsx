@@ -1,14 +1,18 @@
 /* eslint-disable react/no-unescaped-entities */
 import { siteConfig } from '@/config/site'
-import { WALL_OF_LOVE } from '@/config/wallOfLove'
-import Image from 'next/image'
+// import { WALL_OF_LOVE } from '@/config/wallOfLove'
+import { Products } from '@/config/products'
+// import { useTheme } from 'next-themes'
 import Link from 'next/link'
+import React from 'react'
 import { RoughNotation } from 'react-rough-notation'
 
 const AllProducts = ({ id, locale }: { id: string; locale: any }) => {
+  // const { theme } = useTheme()
+
   return (
     <section id={id} className="flex flex-col justify-center items-center pt-16 gap-12 max-w-[88%]">
-      <div className="flex flex-col text-center max-w-xl gap-4">
+      <div className="flex flex-col text-center max-w-2xl gap-4">
         <h2 className="text-center text-white">
           <RoughNotation type="highlight" show={true} color={siteConfig.mainColor}>
             {locale.title}
@@ -29,33 +33,15 @@ const AllProducts = ({ id, locale }: { id: string; locale: any }) => {
         </p>
       </div>
 
-      <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 overflow-hidden relative transition-all">
-        {WALL_OF_LOVE.map((testimonial, index) => (
-          <div className="mb-4 z-0 break-inside-avoid-column" key={index}>
-            <div className="border border-slate/10 rounded-lg p-4 flex flex-col items-start gap-3 h-fit">
-              <div className="flex items-start justify-between w-full">
-                <div className="flex items-start gap-2">
-                  <Image
-                    src={testimonial.user.image}
-                    alt="maker"
-                    height={40}
-                    width={40}
-                    className="w-12 h-12 rounded-full object-cover object-top"
-                  />
-                  <div className="flex flex-col items-start">
-                    <p className="font-bold">{testimonial.user.name}</p>
-                    <p className="dark:text-zinc-400">@{testimonial.user.username}</p>
-                  </div>
-                </div>
-                {/* <Link
-                  href={`https://twitter.com/${testimonial.user.username}`}
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                >
-                  <TwitterX className="w-8 h-8" />
-                </Link> */}
+      <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-5 gap-5 overflow-hidden relative transition-all">
+        {Products.map((item, index) => (
+          <div className="mb-4 z-0 break-inside-avoid-column cursor-pointer" key={index}>
+            <div className="border border-slate/10 rounded-lg p-4 h-fit flex flex-col justify-center items-center">
+              {/* {item.icon && React.createElement(item.icon, { className: 'text-5xl' })} */}
+              <div className="p-4 w-16 h-16 dark:text-white rounded-full">
+                {item.icon && React.createElement(item.icon, { className: 'text-3xl' })}
               </div>
-              <p className="dark:text-zinc-200 text-[14px]">{testimonial.content}</p>
+              <p className="text-center">{item.name}</p>
             </div>
           </div>
         ))}

@@ -23,6 +23,12 @@
     "description2": "por favor házmelo saber",
     "description3": ". Exhibiré tu tweet y recomendación aquí."
   },
+  "AllProducts": {
+    "title": "Redes sociales compatibles",
+    "description1": "Si no encuentras la plataforma que deseas en la aplicación, ",
+    "description2": "por favor házmelo saber",
+    "description3": ". Haré todo lo posible por encontrar la forma de conseguirla para ti."
+  },
   "FAQ": {
     "title": "Preguntas Frecuentes",
     "description": "Aquí están algunas de las preguntas más frecuentes."

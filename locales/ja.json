@@ -24,6 +24,12 @@
     "description2": "私に知らせてください",
     "description3": "。あなたのツイートと推薦をここに表示します。"
   },
+  "AllProducts": {
+    "title": "サポートされているソーシャルメディア",
+    "description1": "アプリ内でお探しのプラットフォームが見つからない場合、",
+    "description2": "お知らせください",
+    "description3": "。可能な限り、取得方法を見つけるために最善を尽くします。"
+  },
   "FAQ": {
     "title": "FAQs",
     "description": "最も頻繁に尋ねられる質問はこちらです。"

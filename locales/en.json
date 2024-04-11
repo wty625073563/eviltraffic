@@ -20,9 +20,15 @@
   },
   "WallOfLove": {
     "title": "Wall of Love",
-    "description1": "If you use this landing page template and recommend it on your Twitter,",
+    "description1": "If the platform you want is not found in the app, ",
     "description2": "please let me know",
-    "description3": ". I will display your tweet and recommendation here."
+    "description3": ". I will try my best to find a way to get it for you."
+  },
+  "AllProducts": {
+    "title": "Supported platforms",
+    "description1": "If the platform you want is not found in the app, ",
+    "description2": "please let me know",
+    "description3": ". I will try my best to find a way to get it for you."
   },
   "FAQ": {
     "title": "FAQs",
