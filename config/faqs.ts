@@ -69,11 +69,6 @@ export const FAQS_EN = [
       "When you use our service, you don't pay for fake Instagram followers! All the IG followers on our packages are real accounts. You can contact our Instagram customer service to learn more about the best selling followers."
   },
   {
-    title: 'Will my followers disappear or drop over time?',
-    content:
-      "Your follower count will not decrease, that's a guarantee. We guarantee to compensate for any possible drops for 6 months after your purchase."
-  },
-  {
     title: 'How can my purchased followers help my account?',
     content:
       'When you pay for our service, you are guaranteed to receive targeted, real, and active followers who will contribute to your visibility and make your payment worthwhile. Think of us as the best place to buy Instagram followers.'
@@ -147,11 +142,6 @@ export const FAQS_ZH = [
     title: '但我为什么要花钱买假粉丝呢？',
     content:
       '当你使用我们的服务时，你不会为虚假的Instagram粉丝付费!我们包裹上的IG粉丝都是真实账户。您可以联系我们的Instagram客户服务，了解更多关于最佳销售粉丝的信息。'
-  },
-  {
-    title: '我的追随者会随着时间的推移而消失或减少吗？',
-    content:
-      '你的粉丝数量不会减少，这是保证的。我们保证在购买后的6个月内，对所有可能减少的数量给予补偿。 '
   },
   {
     title: '我买的粉丝如何帮助我的账户？',

@@ -19,8 +19,8 @@ const links = [
   //   href: "#Pricing",
   // },
   {
-    label: 'Wall of Love',
-    href: '#WallOfLove'
+    label: 'All Products',
+    href: '#AllProducts'
   },
   {
     label: 'FAQ',

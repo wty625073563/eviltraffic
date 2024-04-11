@@ -28,7 +28,8 @@ export default async function LangHome({ params: { lang } }: { params: { lang: s
       {/* <Pricing id="Pricing" locale={dict.Pricing} langName={langName} /> */}
 
       {/* Testimonials / Wall of Love */}
-      <WallOfLove id="WallOfLove" locale={dict.WallOfLove} />
+      {/* <WallOfLove id="WallOfLove" locale={dict.WallOfLove} /> */}
+      <WallOfLove id="AllProducts" locale={dict.WallOfLove} />
 
       {/* FAQ (Frequently Asked Questions) */}
       <FAQ id="FAQ" locale={dict.FAQ} langName={langName} />
