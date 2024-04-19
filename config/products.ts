@@ -43,7 +43,7 @@ export const Products = [
     icon: BiLogoTelegram
   },
   {
-    name: 'Chrome',
+    name: 'Google',
     icon: BiLogoChrome
   },
   {

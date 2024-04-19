@@ -5,11 +5,10 @@ import Feature from '@/components/home/Feature'
 import Hero from '@/components/home/Hero'
 import ScrollingLogos from '@/components/home/ScrollingLogos'
 import SocialProof from '@/components/home/SocialProof'
-import { defaultLocale, getDictionary } from '@/lib/i18n'
+import { getDictionary, getLanguage } from '@/lib/i18n'
 
 export default async function LangHome({ params: { lang } }: { params: { lang: string } }) {
-  // const langName = (lang && lang[0]) || defaultLocale;
-  let langName = lang && lang[0] && lang[0] !== 'index' ? lang[0] : defaultLocale
+  let langName = getLanguage(lang)
 
   const dict = await getDictionary(langName)
 

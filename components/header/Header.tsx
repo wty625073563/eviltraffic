@@ -2,9 +2,11 @@
 import HeaderLinks from '@/components/header/HeaderLinks'
 import { LangSwitcher } from '@/components/header/LangSwitcher'
 import { siteConfig } from '@/config/site'
+import { defaultLocale, extractLocale } from '@/lib/i18n'
 import { MenuIcon } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import { CgClose } from 'react-icons/cg'
 import { ThemedButton } from '../ThemedButton'
@@ -30,12 +32,18 @@ const links = [
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const path = usePathname()
+
+  const locale = extractLocale(path)
+  const homePath = locale === defaultLocale ? '/' : `/${locale}`
+
   return (
     <header className="py-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <nav className="relative z-50 flex justify-between">
         <div className="flex items-center md:gap-x-12">
           <Link
-            href="/"
+            href={homePath}
             aria-label={siteConfig.name}
             title={siteConfig.name}
             className="flex items-center space-x-1 font-bold"

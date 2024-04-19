@@ -20,7 +20,7 @@ export const LOGOS = [
     image: '/images/techStack/bxl-telegram.svg'
   },
   {
-    name: 'Chrome',
+    name: 'Google',
     image: '/images/techStack/bxl-chrome.svg'
   },
   {

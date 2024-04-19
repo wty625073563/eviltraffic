@@ -8,7 +8,7 @@ const baseSiteConfig = {
   name: 'Evil Traffic',
   mainColor: '#5e17eb',
   description:
-    'Boost your social media influence and stand out in the digital age - we provide high-quality social media metrics buying services, helping you quickly gain genuine followers, likes, comments, and shares, comprehensively enhancing your social media visibility and authority, making your brand and content shine in the competitive online world.',
+    'Elevate your online presence with our premium social media metrics services. Gain authentic followers, likes, comments, and shares swiftly. Boost visibility, authority, and brand appeal in the digital realm. Stand out online effortlessly!',
   url: 'https://www.eviltrallic.com',
   ogImage: 'https://landingpage.weijunext.com/og.png',
   metadataBase: '/',
