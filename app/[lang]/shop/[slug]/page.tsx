@@ -1,6 +1,7 @@
+import AllProducts from '@/components/home/AllProducts'
 import CTA from '@/components/home/CTA'
-import FAQ from '@/components/home/FAQ'
 import Feature from '@/components/home/Feature'
+import FAQ from '@/components/shop/FAQ'
 import Hero from '@/components/shop/Hero'
 import HowItWork from '@/components/shop/HowItWork'
 import Products from '@/components/shop/Products'
@@ -30,7 +31,9 @@ export default async function ShopPage({
 
       <HowItWork lang={langName}></HowItWork>
 
-      <FAQ id="FAQ" locale={dict.FAQ} langName={langName} />
+      <AllProducts id="AllProducts" locale={dict.AllProducts} />
+
+      <FAQ id="FAQ" locale={dict.FAQ} faqs={config.faqs} />
 
       <CTA locale={dict.CTA} CTALocale={dict.CTAButton} />
     </>

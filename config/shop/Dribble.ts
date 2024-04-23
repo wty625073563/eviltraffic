@@ -32,7 +32,7 @@ const ZH = {
         '提升您的Dribbble作品的受欢迎程度,让更多人喜欢您的设计。我们的Dribbble Likes服务可以为您带来真实、高质量的点赞,增加作品的人气和吸引力,让您在设计界脱颖而出。'
     },
     {
-      icon: 'BiEye',
+      icon: 'BiRocket',
       title: 'Dribbble Views',
       description:
         '让更多人看到您精彩的Dribbble作品,提高作品的曝光率。我们的Dribbble Views服务可以为您带来真实、高质量的浏览量,确保您的设计作品被更多人欣赏和关注,提升您在设计界的影响力。'
@@ -114,7 +114,7 @@ const EN = {
         'Boost the popularity of your Dribbble works and make more people like your designs. Our Dribbble Likes service can bring you real, high-quality likes, increase the popularity and attractiveness of your work, and help you stand out in the design industry.'
     },
     {
-      icon: 'BiEye',
+      icon: 'BiRocket',
       title: 'Dribbble Views',
       description:
         'Let more people see your wonderful Dribbble works and increase the exposure of your works. Our Dribbble Views service can bring you real, high-quality views, ensure that your design works are appreciated and noticed by more people, and enhance your influence in the design industry.'
@@ -196,7 +196,7 @@ const JP = {
         'Dribbbleの作品の人気を高め、より多くの人にデザインを気に入ってもらいましょう。Dribbbleいいねサービスでは、本物の高品質ないいねを提供し、作品の人気と魅力を高め、デザイン業界で存在感を発揮します。'
     },
     {
-      icon: 'BiEye',
+      icon: 'BiRocket',
       title: 'Dribbbleビュー',
       description:
         'より多くの人にあなたの素晴らしいDribbbleの作品を見てもらい、作品の露出を高めましょう。Dribbbleビューサービスでは、本物の高品質なビューを提供し、デザイン作品がより多くの人に評価され、注目されるようにし、デザイン業界での影響力を高めます。'
@@ -278,7 +278,7 @@ const RU = {
         'Повысьте популярность ваших работ на Dribbble и заставьте больше людей оценить ваши дизайны. Наша услуга лайков Dribbble может принести вам настоящие высококачественные лайки, увеличить популярность и привлекательность вашей работы и помочь вам выделиться в дизайн-индустрии.'
     },
     {
-      icon: 'BiEye',
+      icon: 'BiRocket',
       title: 'Просмотры Dribbble',
       description:
         'Позвольте большему числу людей увидеть ваши замечательные работы на Dribbble и увеличьте видимость ваших работ. Наша услуга просмотров Dribbble может принести вам настоящие высококачественные просмотры, гарантируя, что ваши дизайнерские работы будут оценены и замечены большим числом людей, и повысить ваше влияние в дизайн-индустрии.'
@@ -360,7 +360,7 @@ const AR = {
         'عزِّز شعبية أعمالك على Dribbble واجعل المزيد من الناس يعجبون بتصميماتك. يمكن أن توفر لك خدمة إعجابات Dribbble الخاصة بنا إعجابات حقيقية وعالية الجودة، وتزيد من شعبية وجاذبية عملك، وتساعدك على التميز في صناعة التصميم.'
     },
     {
-      icon: 'BiEye',
+      icon: 'BiRocket',
       title: 'مشاهدات Dribbble',
       description:
         'اجعل المزيد من الناس يرون أعمالك الرائعة على Dribbble وزِد من تعرض أعمالك. يمكن أن توفر لك خدمة مشاهدات Dribbble الخاصة بنا مشاهدات حقيقية وعالية الجودة، وتضمن أن تُقدَّر وتُلاحَظ أعمالك التصميمية من قبل المزيد من الناس، وتعزز نفوذك في صناعة التصميم.'

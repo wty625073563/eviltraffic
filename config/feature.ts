@@ -1,4 +1,4 @@
-import { LucideIcon, MagnetIcon } from 'lucide-react'
+import { LucideIcon } from 'lucide-react'
 import { IconType } from 'react-icons'
 import {
   BiCool,
@@ -8,11 +8,6 @@ import {
   BiRocket,
   BiSun
 } from 'react-icons/bi'
-import { BsGithub } from 'react-icons/bs'
-import { FaToolbox } from 'react-icons/fa'
-
-import { FaEarthAsia, FaMobileScreenButton } from 'react-icons/fa6'
-import { MdCloudUpload } from 'react-icons/md'
 
 export const FEATURES_EN = [
   {
@@ -55,175 +50,192 @@ export const FEATURES_EN = [
 
 export const FEATURES_ZH = [
   {
-    title: '开源优势',
-    content: '完全免费，提供丰富的自定义选项。',
-    icon: BsGithub
+    title: '真实可靠的数据指标',
+    content: '我们提供来自真实活跃用户的真实粉丝、点赞、评论和分享,确保您的社交影响力稳步提升。',
+    icon: BiSun
   },
   {
-    title: '响应式设计',
-    content: '精心设计的模板，确保在任何设备上都能优化显示。',
-    icon: FaMobileScreenButton
+    title: '快速高效的交付',
+    content: '一旦您的订单得到确认,相关数据指标将在几小时内交付,帮助您快速提升社交媒体存在感。',
+    icon: BiRocket
   },
   {
-    title: '易于定制',
-    content: '轻松更改颜色、字体和布局，无需任何编码知识。',
-    icon: FaToolbox
+    title: '多平台全面覆盖',
+    content:
+      '我们的服务涵盖主要社交媒体平台,包括Facebook、Instagram、Twitter、YouTube等,全面满足您的需求。',
+    icon: BiLogoGraphql
   },
   {
-    title: 'SEO优化',
-    content: '构建模板时考虑到搜索引擎优化，增强网站的可发现性。',
-    icon: MagnetIcon
+    title: '灵活可定制的套餐',
+    content: '您可以选择从小规模到大规模的各种套餐。我们还提供针对您独特需求的个性化解决方案。',
+    icon: BiGitRepoForked
   },
   {
-    title: '一键部署',
-    content: '与领先的网站托管服务紧密集成，实现即时网站发布。',
-    icon: MdCloudUpload
+    title: '卓越的客户服务',
+    content:
+      '我们的专业友好的客户支持团队全天候为您解答问题,提供贴心服务,确保您有一个顺畅满意的购买体验。',
+    icon: BiCool
   },
   {
-    title: '全球化支持',
-    content: '支持多种语言，让你的网站吸引全球受众。',
-    icon: FaEarthAsia
+    title: '具有竞争力的价格',
+    content:
+      '我们提供行业内具有竞争力的价格,在保证优质服务的同时,以更实惠的价格为您提供高品质的社交媒体数据指标。',
+    icon: BiDollarCircle
   }
 ]
 
-export const FEATURES_JA = [
+export const FEATURES_JP = [
   {
-    title: 'オープンソースの利点',
-    content: '完全無料で、豊富なカスタマイズオプションを提供。',
-    icon: BsGithub
-  },
-  {
-    title: 'レスポンシブデザイン',
-    content: 'どのデバイス上でも最適に表示されるように細心のデザインを施したテンプレート。',
-    icon: FaMobileScreenButton
-  },
-  {
-    title: '簡単カスタマイズ',
-    content: '色、フォント、レイアウトをコーディング知識なしで簡単に変更可能。',
-    icon: FaToolbox
-  },
-  {
-    title: 'SEO最適化',
+    title: '本物で信頼できるメトリクス',
     content:
-      'ウェブサイトの発見可能性を高めるために、検索エンジン最適化を念頭に置いて構築されたテンプレート。',
-    icon: MagnetIcon
+      '我々は、本物の活発なユーザーからの本物のフォロワー、いいね、コメント、共有を提供し、あなたの社会的影響力の着実な増加を確保します。',
+    icon: BiSun
   },
   {
-    title: 'ワンクリックデプロイメント',
-    content: '主要なウェブホスティングサービスと密接に統合し、即時にウェブサイトを公開。',
-    icon: MdCloudUpload
+    title: '迅速で効率的な配送',
+    content:
+      'ご注文が確認されると、関連するメトリクスが数時間以内に配送されるため、ソーシャルメディアでの存在感を素早く高めることができます。',
+    icon: BiRocket
   },
   {
-    title: 'グローバリゼーションサポート',
-    content: '複数言語をサポートし、グローバルな視聴者を魅了するウェブサイト。',
-    icon: FaEarthAsia
+    title: 'マルチプラットフォームカバレッジ',
+    content:
+      'サービスは、Facebook、Instagram、Twitter、YouTube など、主要なソーシャルメディアプラットフォームをカバーしており、お客様のニーズを包括的に満たします。',
+    icon: BiLogoGraphql
+  },
+  {
+    title: '柔軟でカスタマイズ可能なパッケージ',
+    content:
+      '小規模から大規模まで、さまざまなパッケージから選択できます。また、お客様の独自のニーズに合わせたカスタマイズソリューションも提供しています。',
+    icon: BiGitRepoForked
+  },
+  {
+    title: '卓越したカスタマーサポート',
+    content:
+      '専門的で親切なカスタマーサポートチームが 24 時間 365 日体制で、お客様の質問に答え、きめ細かいサービスを提供し、スムーズで満足のいく購買体験を確保します。',
+    icon: BiCool
+  },
+  {
+    title: '競争力のある費用対効果の高い価格設定',
+    content:
+      '業界で競争力のある価格を提供し、優れた品質を手頃な料金で提供することで、お客様が合理的なコストで高品質のソーシャルメディアメトリクスを得られるようにしています。',
+    icon: BiDollarCircle
   }
 ]
 
 export const FEATURES_AR = [
   {
-    title: 'ميزة المصدر المفتوح',
-    content: 'مجانية بالكامل مع ثروة من خيارات التخصيص.',
-    icon: BsGithub
+    title: 'مقاييس أصيلة وموثوقة',
+    content:
+      'نحن نوفر متابعين حقيقيين وإعجابات وتعليقات ومشاركات من مستخدمين نشطين وحقيقيين، مما يضمن زيادة مطردة في نفوذك الاجتماعي.',
+    icon: BiSun
   },
   {
-    title: 'تصميم متجاوب',
-    content: 'تم تصميم القوالب بعناية لضمان عرض مثالي على أي جهاز.',
-    icon: FaMobileScreenButton
+    title: 'تسليم سريع وفعال',
+    content:
+      'بمجرد تأكيد طلبك، سيتم تسليم المقاييس ذات الصلة في غضون ساعات، مما يساعدك على تحقيق تحسينات ملموسة في وجودك على وسائل التواصل الاجتماعي بسرعة.',
+    icon: BiRocket
   },
   {
-    title: 'تخصيص سهل',
-    content: 'غير الألوان والخطوط والتخطيطات بسهولة دون الحاجة إلى معرفة بالبرمجة.',
-    icon: FaToolbox
+    title: 'التغطية عبر منصات متعددة',
+    content:
+      'تغطي خدماتنا المنصات الرئيسية لوسائل التواصل الاجتماعي، بما في ذلك Facebook و Instagram و Twitter و YouTube وغيرها، لتلبية احتياجاتك بشكل شامل.',
+    icon: BiLogoGraphql
   },
   {
-    title: 'مُحسّن لمحركات البحث',
-    content: 'تم بناء القوالب مع مراعاة تحسين محركات البحث لتعزيز قابلية اكتشاف موقعك.',
-    icon: MagnetIcon
+    title: 'باقات مرنة وقابلة للتخصيص',
+    content:
+      'اختر من مجموعة متنوعة من الباقات، تتراوح من الصغيرة إلى الكبيرة. كما نقدم حلولاً شخصية مصممة خصيصًا لمتطلباتك الفريدة.',
+    icon: BiGitRepoForked
   },
   {
-    title: 'نشر بنقرة واحدة',
-    content: 'متكاملة بشكل وثيق مع خدمات استضافة الويب الرائدة لنشر الموقع فوراً.',
-    icon: MdCloudUpload
+    title: 'خدمة عملاء استثنائية',
+    content:
+      'فريق الدعم العملاء المحترف والودود لدينا متاح على مدار 24 ساعة في اليوم، 7 أيام في الأسبوع لإجابة أسئلتك وتقديم خدمة مميزة، مما يضمن تجربة شراء سلسة ومرضية.',
+    icon: BiCool
   },
   {
-    title: 'دعم العولمة',
-    content: 'يدعم لغات متعددة، مما يجعل موقعك جذابًا لجمهور عالمي.',
-    icon: FaEarthAsia
+    title: 'تسعير تنافسي وفعال من حيث التكلفة',
+    content:
+      'نحن نقدم أسعارًا تنافسية في الصناعة، مع توفير جودة عالية بأسعار أكثر تيسيرًا، مما يتيح لك الحصول على مقاييس وسائل التواصل الاجتماعي عالية الجودة بتكلفة معقولة.',
+    icon: BiDollarCircle
   }
 ]
 
-export const FEATURES_ES = [
-  {
-    title: 'Ventaja del Código Abierto',
-    content: 'Completamente gratuito con una riqueza de opciones de personalización.',
-    icon: BsGithub
-  },
-  {
-    title: 'Diseño Responsivo',
-    content:
-      'Plantillas diseñadas meticulosamente para garantizar una visualización óptima en cualquier dispositivo.',
-    icon: FaMobileScreenButton
-  },
-  {
-    title: 'Personalización Fácil',
-    content:
-      'Cambia colores, fuentes y diseños sin esfuerzo y sin necesidad de conocimientos de codificación.',
-    icon: FaToolbox
-  },
-  {
-    title: 'Optimizado para SEO',
-    content:
-      'Plantillas construidas con la optimización de motores de búsqueda en mente para mejorar la descubribilidad de tu sitio web.',
-    icon: MagnetIcon
-  },
-  {
-    title: 'Despliegue con Un Clic',
-    content:
-      'Integrado estrechamente con servicios líderes de alojamiento web para la publicación instantánea del sitio web.',
-    icon: MdCloudUpload
-  },
-  {
-    title: 'Soporte de Globalización',
-    content:
-      'Soporta múltiples idiomas, haciendo tu sitio web atractivo para una audiencia global.',
-    icon: FaEarthAsia
-  }
-]
+// export const FEATURES_ES = [
+//   {
+//     title: 'Ventaja del Código Abierto',
+//     content: 'Completamente gratuito con una riqueza de opciones de personalización.',
+//     icon: BsGithub
+//   },
+//   {
+//     title: 'Diseño Responsivo',
+//     content:
+//       'Plantillas diseñadas meticulosamente para garantizar una visualización óptima en cualquier dispositivo.',
+//     icon: FaMobileScreenButton
+//   },
+//   {
+//     title: 'Personalización Fácil',
+//     content:
+//       'Cambia colores, fuentes y diseños sin esfuerzo y sin necesidad de conocimientos de codificación.',
+//     icon: FaToolbox
+//   },
+//   {
+//     title: 'Optimizado para SEO',
+//     content:
+//       'Plantillas construidas con la optimización de motores de búsqueda en mente para mejorar la descubribilidad de tu sitio web.',
+//     icon: MagnetIcon
+//   },
+//   {
+//     title: 'Despliegue con Un Clic',
+//     content:
+//       'Integrado estrechamente con servicios líderes de alojamiento web para la publicación instantánea del sitio web.',
+//     icon: MdCloudUpload
+//   },
+//   {
+//     title: 'Soporte de Globalización',
+//     content:
+//       'Soporta múltiples idiomas, haciendo tu sitio web atractivo para una audiencia global.',
+//     icon: FaEarthAsia
+//   }
+// ]
 
 export const FEATURES_RU = [
   {
-    title: 'Преимущество Открытого Исходного Кода',
-    content: 'Полностью бесплатно с широкими возможностями настройки.',
-    icon: BsGithub
-  },
-  {
-    title: 'Адаптивный Дизайн',
+    title: 'Подлинные и надежные метрики',
     content:
-      'Шаблоны, тщательно разработанные для обеспечения оптимального отображения на любом устройстве.',
-    icon: FaMobileScreenButton
+      'Мы предоставляем настоящих подписчиков, лайки, комментарии и репосты от реальных активных пользователей, обеспечивая стабильный рост вашего социального влияния.',
+    icon: BiSun
   },
   {
-    title: 'Легкая Настройка',
-    content: 'Легко изменяйте цвета, шрифты и макеты без знаний в области программирования.',
-    icon: FaToolbox
-  },
-  {
-    title: 'Оптимизировано для Поисковых Систем',
+    title: 'Быстрая и эффективная доставка',
     content:
-      'Шаблоны созданы с учетом оптимизации для поисковых систем, чтобы повысить обнаруживаемость вашего сайта.',
-    icon: MagnetIcon
+      'Как только ваш заказ будет подтвержден, соответствующие метрики будут доставлены в течение нескольких часов, помогая вам быстро добиться видимых улучшений в вашем присутствии в социальных сетях.',
+    icon: BiRocket
   },
   {
-    title: 'Развертывание в Один Клик',
+    title: 'Охват нескольких платформ',
     content:
-      'Плотно интегрировано с ведущими сервисами веб-хостинга для мгновенной публикации сайта.',
-    icon: MdCloudUpload
+      'Наши услуги охватывают основные социальные медиа-платформы, включая Facebook, Instagram, Twitter, YouTube и другие, всесторонне удовлетворяя ваши потребности.',
+    icon: BiLogoGraphql
   },
   {
-    title: 'Поддержка Глобализации',
-    content: 'Поддерживает несколько языков, делая ваш сайт привлекательным для мировой аудитории.',
-    icon: FaEarthAsia
+    title: 'Гибкие и настраиваемые пакеты',
+    content:
+      'Выбирайте из широкого спектра пакетов, от небольших до крупномасштабных. Мы также предлагаем персонализированные решения, адаптированные к вашим уникальным требованиям.',
+    icon: BiGitRepoForked
+  },
+  {
+    title: 'Исключительное обслуживание клиентов',
+    content:
+      'Наша профессиональная и дружелюбная команда поддержки клиентов доступна 24/7, чтобы ответить на ваши вопросы и предоставить внимательное обслуживание, гарантируя плавный и удовлетворительный опыт покупки.',
+    icon: BiCool
+  },
+  {
+    title: 'Конкурентоспособное и экономически эффективное ценообразование',
+    content:
+      'Мы предлагаем конкурентоспособные цены в отрасли, обеспечивая превосходное качество по более доступным ставкам, позволяя вам получать высококачественные метрики социальных сетей по разумной цене.',
+    icon: BiDollarCircle
   }
 ]
 
@@ -238,8 +250,8 @@ interface FeaturesCollection {
 export const ALL_FEATURES: FeaturesCollection = {
   FEATURES_EN,
   FEATURES_ZH,
-  FEATURES_JA,
+  FEATURES_JP,
   FEATURES_AR,
-  FEATURES_ES,
+  // FEATURES_ES,
   FEATURES_RU
 }

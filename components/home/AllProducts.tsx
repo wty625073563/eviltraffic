@@ -1,14 +1,22 @@
-/* eslint-disable react/no-unescaped-entities */
-import { siteConfig } from '@/config/site'
-// import { WALL_OF_LOVE } from '@/config/wallOfLove'
+'use client'
+
 import { Products } from '@/config/products'
-// import { useTheme } from 'next-themes'
+import { siteConfig } from '@/config/site'
 import Link from 'next/link'
 import React from 'react'
 import { RoughNotation } from 'react-rough-notation'
 
+import { extractLocale } from '@/lib/i18n'
+import { usePathname } from 'next/navigation'
+
 const AllProducts = ({ id, locale }: { id: string; locale: any }) => {
-  // const { theme } = useTheme()
+  const path = usePathname()
+
+  const getLink = (name: string) => {
+    const locale = extractLocale(path)
+
+    return `/${locale}/shop/${name.toLocaleLowerCase()}`
+  }
 
   return (
     <section id={id} className="flex flex-col justify-center items-center pt-16 gap-12 max-w-[88%]">
@@ -36,7 +44,7 @@ const AllProducts = ({ id, locale }: { id: string; locale: any }) => {
       <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-5 gap-5 overflow-hidden relative transition-all">
         {Products.map((item, index) => (
           <div className="mb-4 z-0 break-inside-avoid-column cursor-pointer" key={index}>
-            <Link href="/shop/instagram">
+            <Link href={getLink(item.name)}>
               <div className="border border-slate/10 rounded-lg p-4 h-fit flex flex-col justify-center items-center hover:bg-[#5e17eb]">
                 {/* {item.icon && React.createElement(item.icon, { className: 'text-5xl' })} */}
                 {/* <Link href={'/' + item.name.toLocaleLowerCase()}> */}

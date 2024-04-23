@@ -1,12 +1,12 @@
 import { match } from '@formatjs/intl-localematcher'
 import Negotiator from 'negotiator'
 
-export const locales = ['', 'en', 'en-US', 'zh', 'zh-CN', 'zh-TW', 'zh-HK', 'ja', 'ar', 'es', 'ru']
+export const locales = ['', 'en', 'en-US', 'zh', 'zh-CN', 'zh-TW', 'zh-HK', 'jp', 'ar', 'es', 'ru']
 export const localeNames: any = {
   ar: '🇸🇦 العربية',
   en: '🇺🇸 English',
   // es: '🇪🇸 Español',
-  ja: '🇯🇵 日本語',
+  jp: '🇯🇵 日本語',
   ru: '🇷🇺 Русский',
   zh: '🇨🇳 中文'
 }
@@ -30,7 +30,7 @@ export function getLocale(headers: any): string {
 const dictionaries: any = {
   en: () => import('@/locales/en.json').then(module => module.default),
   zh: () => import('@/locales/zh.json').then(module => module.default),
-  ja: () => import('@/locales/ja.json').then(module => module.default),
+  jp: () => import('@/locales/ja.json').then(module => module.default),
   ar: () => import('@/locales/ar.json').then(module => module.default),
   es: () => import('@/locales/es.json').then(module => module.default),
   ru: () => import('@/locales/ru.json').then(module => module.default)
@@ -55,7 +55,7 @@ export const getLanguage = (val: any) => {
 /**
  * 从给定字符串中提取本地化标识符
  * @param str 需要解析以提取本地化标识符的字符串
- * @returns 返回匹配到的本地化标识符，如果没有匹配到则返回null
+ * @returns 返回匹配到的本地化标识符，如果没有匹配到则返回'
  */
 export function extractLocale(str: string) {
   if (str === '/') {
@@ -71,6 +71,6 @@ export function extractLocale(str: string) {
     return match[1]
   } else {
     // 如果没有匹配到，返回null
-    return null
+    return ''
   }
 }

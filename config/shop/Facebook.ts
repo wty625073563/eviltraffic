@@ -1,6 +1,6 @@
 import { shopConfig } from '@/types/shop'
 
-const imageUrl = '/images/medias/other.png'
+const imageUrl = '/images/medias/facebook.png'
 
 const ZH = {
   hero: {
@@ -85,327 +85,327 @@ const ZH = {
 const EN = {
   hero: {
     title: 'Purchase',
-    description:
-      'Let our Dribbble promotion service help you stand out in the designer community! We offer a one-stop promotion solution including fan growth, comment increase, etc., making your work shine on the popular leaderboard. Choose us to make exposure no longer a luxury, leading your design career into a new and broad stage!',
-    title1: 'Dribbble',
+    description: `In this digital era, everyone can become a content creator. Do you wish to gain more exposure and influence on Facebook? We offer professional Facebook Promotion Services to help you stand out on social media - precise fan growth, engaging comments, and trending content promotion. Our team deeply understands the Facebook ecosystem and can assist you in precisely targeting your audience, building a high-quality follower base, attracting attention, and promoting your work. Whether you're an individual brand or a business, choose us to amplify your influence on Facebook!`,
+    title1: 'Facebook',
     btn: 'Buy Now',
     image: imageUrl
   },
-  productsTitle: 'Dribbble Services',
+  productsTitle: 'Facebook Services',
   products: [
     {
-      icon: 'BiCommentDetail',
-      title: 'Dribbble Comments',
+      icon: 'BiLike',
+      title: 'Facebook Post Likes',
       description:
-        'Increase the exposure and engagement of your Dribbble works, allowing more design enthusiasts to leave valuable comments. Our Dribbble Comments service can bring you real, high-quality comments, increase the interactivity of your work, and enhance your influence in the design industry.'
+        'In the social media age, the number of likes on your posts directly determines the popularity and influence of your content. Purchase our Facebook Post Likes service to gain real, high-quality likes that will effectively boost the appeal and visibility of your posts, helping you stand out on Facebook and attract more attention.'
+    },
+    {
+      icon: 'BiCommentDetail',
+      title: 'Facebook Comments',
+      description:
+        'Comments are a crucial indicator of post engagement. High-quality comments not only increase interaction but also enhance the value of your content. Our Facebook Comments service can provide you with real, relevant comments that will stimulate more discussions and elevate your influence on Facebook.'
     },
     {
       icon: 'BiUser',
-      title: 'Dribbble Followers',
+      title: 'Facebook Friends',
       description:
-        'Expand your Dribbble fan base and attract more people to follow your design works. Our Dribbble Followers service can bring you real, high-quality fans, enhance your visibility and influence in the design community, and get your works more exposure and appreciation.'
-    },
-    {
-      icon: 'BiLike',
-      title: 'Dribbble Likes',
-      description:
-        'Boost the popularity of your Dribbble works and make more people like your designs. Our Dribbble Likes service can bring you real, high-quality likes, increase the popularity and attractiveness of your work, and help you stand out in the design industry.'
-    },
-    {
-      icon: 'BiEye',
-      title: 'Dribbble Views',
-      description:
-        'Let more people see your wonderful Dribbble works and increase the exposure of your works. Our Dribbble Views service can bring you real, high-quality views, ensure that your design works are appreciated and noticed by more people, and enhance your influence in the design industry.'
-    },
-    {
-      icon: 'BiBookmarkPlus',
-      title: 'Dribbble Saves',
-      description:
-        'Have more people bookmark your outstanding Dribbble works and increase the bookmark rate of your works. Our Dribbble Saves service can bring you real, high-quality saves, ensure that your design works are cherished and saved by more people, and enhance your professional image in the design industry.'
+        'Having more friends on Facebook can not only expand your social circle but also increase the exposure of your content. Our Facebook Friends service can bring you real, high-quality friends to boost your visibility on social media and earn more appreciation for your content.'
     },
     {
       icon: 'BiShareAlt',
-      title: 'Dribbble Shares',
+      title: 'Facebook Shares',
       description:
-        'Spread your Dribbble works widely in the design community, increasing the sharing rate of your works. Our Dribbble Shares service can bring you real, high-quality shares, ensure that your design works are spread and shared by more people, expanding your influence in the design industry.'
+        'Shares are key to the spread of content on social media, and a high share rate means more people can see your posts. Our Facebook Shares service can provide you with real, high-quality shares to ensure your content is widely circulated on Facebook, amplifying your influence.'
+    },
+    {
+      icon: 'BiLike',
+      title: 'Facebook Page Likes',
+      description:
+        'Having a popular Facebook page can not only enhance your brand image but also attract more potential customers. Our Facebook Page Likes service can bring you real, high-quality likes to increase the popularity and appeal of your page, helping you stand out on Facebook.'
+    },
+    {
+      icon: 'BiPlus',
+      title: 'Facebook More',
+      description:
+        'To achieve comprehensive growth and influence on Facebook, a single service is not enough. Our Facebook More service can provide you with real, high-quality comprehensive growth, including likes, comments, shares, and more, to holistically boost your visibility and influence on social media.'
     }
   ],
   faqs: [
     {
-      title: 'Is promoting on Dribbble legal?',
-      content:
-        'Dribbble allows users to promote through paid services as long as they comply with their community guidelines and policies. Our services are completely legal and compliant.'
+      title: `Does using Facebook Promotion Services violate Facebook's policies?`,
+      content: `No, it does not. Our services fully comply with Facebook's policies and guidelines, ensuring the safety of your account.`
     },
     {
-      title: 'How long does it take for Dribbble promotion services to take effect?',
+      title: 'How long does it take to see results after starting Facebook Promotion?',
       content:
-        'This depends on the promotion package and budget you choose. We will provide an estimated delivery time based on your specific needs. Typically, you can see initial results within 3-7 working days.'
+        'The time it takes to see results depends on various factors, including the type of promotion and target audience you choose. In most cases, you can start seeing the effects of the promotion within a few days.'
     },
     {
-      title: 'Are Dribbble promotion services safe and reliable?',
+      title: 'Are Facebook Promotion Services safe to use?',
       content:
-        'Our system employs industry-leading security technologies such as SSL encryption to ensure the privacy and security of your information and funds. We never ask for any sensitive information from you.'
+        'Absolutely. We prioritize your privacy and account security, and we will never ask for your account password or other sensitive information. All transactions are conducted through secure payment methods.'
     },
     {
-      title: 'How do I determine how much Dribbble promotion services I need to purchase?',
+      title: 'How much Facebook Promotion should I purchase?',
       content:
-        'This depends on your specific promotion goals and budget. We can provide professional advice based on your needs to help you choose the right promotion package. You can also purchase in batches and adjust flexibly.'
+        'This entirely depends on your goals and budget. We recommend starting small and gradually increasing your investment based on the results.'
     },
     {
-      title: 'Can I get a refund if I am not satisfied with Dribbble promotion services?',
+      title: `Can I get a refund if I'm not satisfied with the Facebook Promotion Services?`,
       content:
-        'If we fail to complete your order within the promised time, we will proactively refund you. Additionally, if you are unsatisfied with the service quality, we will provide a full refund.'
+        'We offer a satisfaction guarantee. If the expected results are not achieved within the agreed timeframe, we will provide a refund or additional services to compensate.'
     },
     {
-      title: 'Is paid promotion common on Dribbble?',
+      title: 'Do many people use Facebook Promotion Services?',
       content:
-        'Yes, many designers and creative professionals choose to promote on Dribbble because it is a highly professional and high-quality design community where they can quickly attract the attention of their target audience.'
+        'Yes, both individuals and businesses widely use Facebook Promotion Services to expand their influence and improve brand awareness.'
     }
   ]
 }
 
 const JP = {
   hero: {
-    title: '購入',
+    title: 'Facebook プロモーション',
     description:
-      'Dribbbleのプロモーションサービスを活用して、デザイナーコミュニティで存在感を発揮しましょう。ファン獲得、コメント増加など、ワンストップのプロモーションソリューションをご用意しています。人気のリーダーボードでお客様の作品が輝くよう支援します。露出を贅沢ではなく必須のものにし、デザインキャリアを新たな広がりへと導きます。',
-    title1: 'Dribbble',
+      'この時代、誰もがコンテンツクリエイターになれます。Facebookでより多くの露出と影響力を得たいですか? 私たちはプロフェッショナルなFacebookプロモーションサービスを提供し、ソーシャルメディアで存在感を発揮できるようサポートします - 的確なフォロワー獲得、魅力的なコメント、トレンドコンテンツの配信。私たちのチームはFacebookのエコシステムを深く理解しており、あなたのターゲットに正確に働きかけ、高品質なフォロワーベースを構築し、注目を集め、あなたの活動を広めるお手伝いができます。個人ブランドでも企業でも、Facebookでの影響力を高めるなら私たちにお任せください。',
+    title1: 'Facebook',
     btn: '今すぐ購入',
-    image: imageUrl
+    image: 'imageUrl'
   },
-  productsTitle: 'Dribbbleサービス',
+  productsTitle: 'Facebookサービス',
   products: [
     {
-      icon: 'BiCommentDetail',
-      title: 'Dribbbleコメント',
+      icon: 'BiLike',
+      title: 'Facebookの投稿いいね',
       description:
-        'Dribbbleの作品の露出とエンゲージメントを高めましょう。より多くのデザイン愛好家にコメントしてもらえるようになります。Dribbbleコメントサービスでは、本物の高品質なコメントを提供し、作品のインタラクティビティを高め、デザイン業界での影響力を高めます。'
+        'ソーシャルメディア時代、投稿のいいね数は、コンテンツの人気と影響力を直接決定します。当社のFacebookの投稿いいねサービスを利用すれば、本物の高品質ないいねを得られ、投稿の魅力と視認性を効果的に高め、Facebookでの存在感を引き立てることができます。'
+    },
+    {
+      icon: 'BiCommentDetail',
+      title: 'Facebookコメント',
+      description:
+        'コメントは投稿の関与度を示す重要な指標です。質の高いコメントは、単なる相互作用を増やすだけでなく、コンテンツの価値を高めます。当社のFacebookコメントサービスでは、本物の関連性の高いコメントを提供し、より活発な議論を喚起し、Facebookでの影響力を高めることができます。'
     },
     {
       icon: 'BiUser',
-      title: 'Dribbbleフォロワー',
+      title: 'Facebookフレンド',
       description:
-        'Dribbbleのファンベースを広げ、より多くの人にあなたのデザイン作品をフォローしてもらいましょう。Dribbbleフォロワーサービスでは、本物の高品質なファンを提供し、デザインコミュニティでの知名度と影響力を高め、作品の露出と評価を高めます。'
-    },
-    {
-      icon: 'BiLike',
-      title: 'Dribbbleいいね',
-      description:
-        'Dribbbleの作品の人気を高め、より多くの人にデザインを気に入ってもらいましょう。Dribbbleいいねサービスでは、本物の高品質ないいねを提供し、作品の人気と魅力を高め、デザイン業界で存在感を発揮します。'
-    },
-    {
-      icon: 'BiEye',
-      title: 'Dribbbleビュー',
-      description:
-        'より多くの人にあなたの素晴らしいDribbbleの作品を見てもらい、作品の露出を高めましょう。Dribbbleビューサービスでは、本物の高品質なビューを提供し、デザイン作品がより多くの人に評価され、注目されるようにし、デザイン業界での影響力を高めます。'
-    },
-    {
-      icon: 'BiBookmarkPlus',
-      title: 'Dribbbleセーブ',
-      description:
-        'より多くの人にあなたの優れたDribbbleの作品をブックマークしてもらい、作品のブックマーク率を高めましょう。Dribbbleセーブサービスでは、本物の高品質なセーブを提供し、デザイン作品がより多くの人に大切にされ、保存されるようにし、デザイン業界での専門家としての評価を高めます。'
+        'Facebookのフレンド数を増やすことで、ソーシャルサークルを広げるだけでなく、コンテンツの露出も高められます。当社のFacebookフレンドサービスでは、本物の高品質なフレンドを提供し、ソーシャルメディアでの存在感を高め、コンテンツへの評価を高めることができます。'
     },
     {
       icon: 'BiShareAlt',
-      title: 'Dribbbleシェア',
+      title: 'Facebookシェア',
       description:
-        'デザインコミュニティ全体にあなたのDribbbleの作品を広く広めましょう。作品のシェア率を高めます。Dribbbleシェアサービスでは、本物の高品質なシェアを提供し、デザイン作品がより多くの人に広まり共有されるようにし、デザイン業界での影響力を拡大します。'
+        'シェアはソーシャルメディアでコンテンツを広めるための鍵であり、シェア率が高いほど、より多くの人があなたの投稿を目にできます。当社のFacebookシェアサービスでは、本物の高品質なシェアを提供し、Facebook上であなたのコンテンツが広く共有されるよう支援し、影響力を高めることができます。'
+    },
+    {
+      icon: 'BiLike',
+      title: 'Facebookページいいね',
+      description:
+        '人気のあるFacebookページを持つことで、ブランドイメージの向上だけでなく、より多くの潜在的な顧客を引き付けることができます。当社のFacebookページいいねサービスでは、本物の高品質ないいねを提供し、ページの人気と魅力を高め、Facebookでの存在感を高めることができます。'
+    },
+    {
+      icon: 'BiPlus',
+      title: 'Facebookトータルプロモーション',
+      description:
+        'Facebookでの包括的な成長と影響力を達成するには、単一のサービスでは不十分です。当社のFacebookトータルプロモーションサービスでは、本物の高品質な総合的な成長、つまりいいね、コメント、シェアなどを提供し、ソーシャルメディアでの視認性と影響力を全面的に高めることができます。'
     }
   ],
   faqs: [
     {
-      title: 'Dribbbleでの宣伝は合法ですか?',
+      title: 'Facebookプロモーションサービスの利用はFacebookのポリシーに違反しますか?',
       content:
-        'Dribbbleは、コミュニティガイドラインとポリシーに準拠している限り、ユーザーによる有料サービスでの宣伝を許可しています。当社のサービスは完全に合法かつ適合しています。'
+        'いいえ、違反しません。当社のサービスはFacebookのポリシーとガイドラインに完全に準拠しており、あなたのアカウントの安全性を確保しています。'
     },
     {
-      title: 'Dribbbleプロモーションサービスの効果はどのくらいの期間で現れますか?',
+      title: 'Facebookプロモーションを開始してから、どのくらいの期間で効果が現れますか?',
       content:
-        'これは選択するプロモーションパッケージとbudgetによって異なります。具体的なニーズに基づいて、お客様に配達予定時間をお知らせします。通常、3〜7営業日以内に初期の成果が見られます。'
+        '効果が現れるまでの時間は、プロモーションの種類やターゲット層などさまざまな要因によって異なります。ほとんどの場合、数日以内に効果が現れ始めます。'
     },
     {
-      title: 'Dribbbleプロモーションサービスは安全で信頼できますか?',
+      title: 'Facebookプロモーションサービスは安全に利用できますか?',
       content:
-        'システムにはSSL暗号化などの業界をリードする安全技術を採用しており、お客様の情報と資金の プライバシーと安全性を確保しています。機密情報を一切お聞きすることはありません。'
+        'はい、もちろんです。私たちはあなたのプライバシーとアカウントのセキュリティを最優先しており、決して口座パスワードやその他の機密情報を求めることはありません。すべての取引は安全な支払方法で行われます。'
     },
     {
-      title: 'どのくらいのDribbbleプロモーションサービスを購入すべきですか?',
+      title: 'どのくらいのFacebookプロモーションを購入すべきですか?',
       content:
-        'これはお客様の具体的なプロモーション目標とbudgetによって異なります。ニーズに基づいて、最適なプロモーションパッケージをお選びいただくためのアドバイスを提供します。分割購入や柔軟な調整も可能です。'
+        'これは、あなたの目標と予算によって完全に異なります。小さく始め、結果に応じて徐々に投資を増やすことをおすすめします。'
     },
     {
-      title: 'Dribbbleプロモーションサービスに満足できない場合、返金はできますか?',
+      title: 'Facebookプロモーションサービスに満足できない場合、返金してもらえますか?',
       content:
-        '約束した期間内に注文を完了できなかった場合は、自主的に返金いたします。また、サービス品質に満足できない場合も、全額返金いたします。'
+        '当社では満足保証を提供しています。合意した期間内に期待された結果が得られない場合は、返金または追加サービスを提供させていただきます。'
     },
     {
-      title: 'Dribbbleでの有料プロモーションは一般的ですか?',
+      title: 'Facebookプロモーションサービスを利用する人は多いですか?',
       content:
-        'はい、多くのデザイナーやクリエイティブプロフェッショナルがDribbbleでプロモーションを行っています。Dribbbleは高度な専門性と品質の高いデザインコミュニティであり、ターゲット層の注目を素早く集められるためです。'
+        'はい、個人やビジネスの両方で、Facebookでの影響力を広げ、ブランド認知度を高めるためにFacebookプロモーションサービスを広く利用されています。'
     }
   ]
 }
 
 const RU = {
   hero: {
-    title: 'Покупка',
+    title: 'Продвижение',
     description:
-      'Позвольте нашей службе продвижения на Dribbble помочь вам выделиться в дизайнерском сообществе! Мы предлагаем комплексное решение для продвижения, включая рост фанатов, увеличение комментариев и т.д., чтобы ваша работа сияла на популярной лидерской доске. Выберите нас, чтобы сделать видимость больше не роскошью, а вывести вашу дизайнерскую карьеру на новый и широкий уровень!',
-    title1: 'Dribbble',
+      'В эту цифровую эпоху каждый может стать создателем контента. Хотите получить больше внимания и влияния на Facebook? Мы предлагаем профессиональные услуги продвижения на Facebook, которые помогут вам выделиться в социальных сетях - точный рост числа поклонников, увлекательные комментарии и продвижение трендового контента. Наша команда глубоко понимает экосистему Facebook и может помочь вам точно определить вашу аудиторию, создать базу высококачественных подписчиков, привлечь внимание и продвигать ваши работы. Будь вы индивидуальным брендом или бизнесом, выберите нас, чтобы усилить свое влияние на Facebook!',
+    title1: 'Facebook',
     btn: 'Купить сейчас',
     image: imageUrl
   },
-  productsTitle: 'Услуги Dribbble',
+  productsTitle: 'Услуги Facebook',
   products: [
     {
-      icon: 'BiCommentDetail',
-      title: 'Комментарии Dribbble',
+      icon: 'BiLike',
+      title: 'Лайки на посты в Facebook',
       description:
-        'Увеличьте видимость и вовлеченность ваших работ на Dribbble, позволив большему числу энтузиастов дизайна оставлять ценные комментарии. Наша услуга комментариев Dribbble может принести вам настоящие высококачественные комментарии, повысить интерактивность вашей работы и усилить ваше влияние в дизайн-индустрии.'
+        'В эпоху социальных сетей количество лайков на ваших постах напрямую определяет популярность и влияние вашего контента. Приобретите нашу услугу лайков на посты в Facebook, чтобы получить реальные, высококачественные лайки, которые эффективно повысят привлекательность и видимость ваших постов, помогая вам выделиться на Facebook и привлечь больше внимания.'
+    },
+    {
+      icon: 'BiCommentDetail',
+      title: 'Комментарии в Facebook',
+      description:
+        'Комментарии - важный показатель вовлеченности в посты. Качественные комментарии не только повышают интерактивность, но и увеличивают ценность вашего контента. Наша услуга комментариев в Facebook может предоставить вам реальные, релевантные комментарии, которые будут стимулировать больше обсуждений и повышать ваше влияние на Facebook.'
     },
     {
       icon: 'BiUser',
-      title: 'Подписчики Dribbble',
+      title: 'Друзья в Facebook',
       description:
-        'Расширьте свою базу фанатов Dribbble и привлеките больше людей, чтобы следить за вашими дизайнерскими работами. Наша услуга подписчиков Dribbble может принести вам настоящих высококачественных фанатов, повысить вашу видимость и влияние в дизайнерском сообществе, а также обеспечить большую видимость и признание ваших работ.'
-    },
-    {
-      icon: 'BiLike',
-      title: 'Лайки Dribbble',
-      description:
-        'Повысьте популярность ваших работ на Dribbble и заставьте больше людей оценить ваши дизайны. Наша услуга лайков Dribbble может принести вам настоящие высококачественные лайки, увеличить популярность и привлекательность вашей работы и помочь вам выделиться в дизайн-индустрии.'
-    },
-    {
-      icon: 'BiEye',
-      title: 'Просмотры Dribbble',
-      description:
-        'Позвольте большему числу людей увидеть ваши замечательные работы на Dribbble и увеличьте видимость ваших работ. Наша услуга просмотров Dribbble может принести вам настоящие высококачественные просмотры, гарантируя, что ваши дизайнерские работы будут оценены и замечены большим числом людей, и повысить ваше влияние в дизайн-индустрии.'
-    },
-    {
-      icon: 'BiBookmarkPlus',
-      title: 'Сохранения Dribbble',
-      description:
-        'Пусть больше людей добавляют в закладки ваши выдающиеся работы на Dribbble и увеличьте скорость добавления в закладки ваших работ. Наша услуга сохранений Dribbble может принести вам настоящие высококачественные сохранения, гарантируя, что ваши дизайнерские работы будут ценимы и сохранены большим числом людей, и повысить ваш профессиональный имидж в дизайн-индустрии.'
+        'Наличие большего количества друзей на Facebook может не только расширить ваш социальный круг, но и увеличить охват вашего контента. Наша услуга друзей в Facebook может привести к вам реальных, качественных друзей, чтобы повысить вашу видимость в социальных сетях и заслужить больше признания для вашего контента.'
     },
     {
       icon: 'BiShareAlt',
-      title: 'Репосты Dribbble',
+      title: 'Репосты в Facebook',
       description:
-        'Распространяйте ваши работы на Dribbble широко в дизайнерском сообществе, увеличивая скорость репостов ваших работ. Наша услуга репостов Dribbble может принести вам настоящие высококачественные репосты, гарантируя, что ваши дизайнерские работы будут распространяться и репостится большим числом людей, расширяя ваше влияние в дизайн-индустрии.'
+        'Репосты являются ключом к распространению контента в социальных сетях, и высокий уровень репостов означает, что больше людей могут увидеть ваши публикации. Наша услуга репостов в Facebook может предоставить вам реальные, качественные репосты, чтобы обеспечить широкое распространение вашего контента на Facebook, усиливая ваше влияние.'
+    },
+    {
+      icon: 'BiLike',
+      title: 'Лайки страницы в Facebook',
+      description:
+        'Наличие популярной страницы на Facebook может не только улучшить имидж вашего бренда, но и привлечь больше потенциальных клиентов. Наша услуга лайков страницы в Facebook может принести вам реальные, качественные лайки, чтобы повысить популярность и привлекательность вашей страницы, помогая вам выделиться на Facebook.'
+    },
+    {
+      icon: 'BiPlus',
+      title: 'Больше услуг Facebook',
+      description:
+        'Для достижения всестороннего роста и влияния на Facebook одной услуги недостаточно. Наша услуга "Больше Facebook" может предоставить вам реальный, качественный комплексный рост, включая лайки, комментарии, репосты и многое другое, чтобы целостно повысить вашу видимость и влияние в социальных сетях.'
     }
   ],
   faqs: [
     {
-      title: 'Законно ли продвижение на Dribbble?',
+      title: 'Нарушает ли использование услуг продвижения на Facebook политику Facebook?',
       content:
-        'Dribbble разрешает пользователям продвигать свои работы через платные услуги, если они соблюдают их сообщество и политику. Наши услуги полностью законны и соответствуют требованиям.'
+        'Нет, не нарушает. Наши услуги полностью соответствуют политикам и рекомендациям Facebook, обеспечивая безопасность вашей учетной записи.'
     },
     {
-      title: 'Как долго займет эффект от услуг продвижения Dribbble?',
+      title:
+        'Сколько времени нужно, чтобы увидеть результаты после начала продвижения на Facebook?',
       content:
-        'Это зависит от выбранного вами пакета продвижения и бюджета. Мы предоставим ориентировочное время доставки, основанное на ваших конкретных потребностях. Как правило, вы можете увидеть первоначальные результаты в течение 3-7 рабочих дней.'
+        'Время получения результатов зависит от различных факторов, включая тип продвижения и выбранную целевую аудиторию. В большинстве случаев вы можете начать видеть эффект от продвижения в течение нескольких дней.'
     },
     {
-      title: 'Безопасны ли и надежны ли услуги продвижения Dribbble?',
+      title: 'Безопасно ли использовать услуги продвижения на Facebook?',
       content:
-        'Наша система использует передовые технологии безопасности, такие как шифрование SSL, чтобы гарантировать конфиденциальность и безопасность ваших данных и средств. Мы никогда не запрашиваем у вас никакой конфиденциальной информации.'
+        'Абсолютно. Мы уделяем приоритетное внимание вашей конфиденциальности и безопасности учетной записи и никогда не будем запрашивать пароль от вашей учетной записи или другую конфиденциальную информацию. Все транзакции проводятся через безопасные способы оплаты.'
     },
     {
-      title: 'Как определить, сколько услуг продвижения Dribbble мне нужно купить?',
+      title: 'Сколько продвижения на Facebook мне следует приобрести?',
       content:
-        'Это зависит от ваших конкретных целей продвижения и бюджета. Мы можем дать профессиональные рекомендации, основанные на ваших потребностях, чтобы помочь вам выбрать правильный пакет продвижения. Вы также можете покупать партиями и гибко корректировать.'
+        'Это полностью зависит от ваших целей и бюджета. Мы рекомендуем начинать с малого и постепенно увеличивать инвестиции в зависимости от результатов.'
     },
     {
-      title: 'Могу ли я получить возврат, если не удовлетворен услугами продвижения Dribbble?',
+      title:
+        'Могу ли я получить возврат средств, если я не удовлетворен услугами продвижения на Facebook?',
       content:
-        'Если мы не сможем выполнить ваш заказ в обещанные сроки, мы проактивно вернем вам деньги. Кроме того, если вы недовольны качеством обслуживания, мы предоставим полный возврат.'
+        'Мы предлагаем гарантию удовлетворенности. Если ожидаемые результаты не достигнуты в согласованные сроки, мы предоставим возврат средств или дополнительные услуги в качестве компенсации.'
     },
     {
-      title: 'Распространено ли платное продвижение на Dribbble?',
+      title: 'Многие ли люди пользуются услугами продвижения на Facebook?',
       content:
-        'Да, многие дизайнеры и творческие профессионалы выбирают продвижение на Dribbble, потому что это высокопрофессиональное и качественное дизайнерское сообщество, где они могут быстро привлечь внимание своей целевой аудитории.'
+        'Да, как частные лица, так и компании широко используют услуги продвижения на Facebook для расширения своего влияния и повышения узнаваемости бренда.'
     }
   ]
 }
 
 const AR = {
   hero: {
-    title: 'الشراء',
+    title: 'شراء',
     description:
-      'دعنا نساعدك في خدمة الترويج على Dribbble لتبرز في مجتمع المصممين! نحن نقدم حلاً شاملاً للترويج بما في ذلك نمو المعجبين وزيادة التعليقات وما إلى ذلك، مما يجعل أعمالك تتألق على لوحة القيادة الشهيرة. اختر خدماتنا لتجعل التعرض لا يعد ترفًا، بل قد يقود مسيرتك الإبداعية إلى مرحلة جديدة وواسعة!',
-    title1: 'Dribbble',
-    btn: 'اشتر الآن',
-    image: imageUrl
+      'في هذا العصر الرقمي، يمكن لكل شخص أن يصبح منشئ محتوى. هل ترغب في الحصول على المزيد من التعرض والتأثير على فيسبوك؟ نحن نقدم خدمات ترويج احترافية على فيسبوك لمساعدتك على التميز على وسائل التواصل الاجتماعي - نمو الجمهور الدقيق، والتعليقات المشاركة، وترويج المحتوى الرائج. يفهم فريقنا بعمق نظام فيسبوك ويمكن أن يساعدك في استهداف جمهورك بدقة، وبناء قاعدة متابعين عالية الجودة، وجذب الانتباه، وترويج أعمالك. سواء كنت علامة تجارية فردية أو شركة، اختر نا لتعزيز تأثيرك على فيسبوك!',
+    title1: 'فيسبوك',
+    btn: 'اشتري الآن',
+    image: 'imageUrl'
   },
-  productsTitle: 'خدمات Dribbble',
+  productsTitle: 'خدمات فيسبوك',
   products: [
     {
-      icon: 'BiCommentDetail',
-      title: 'تعليقات Dribbble',
+      icon: 'BiLike',
+      title: 'إعجابات منشورات فيسبوك',
       description:
-        'زِد من تعرض وانخراط أعمالك على Dribbble، مما يتيح لمزيد من هواة التصميم ترك تعليقات قيمة. يمكن أن توفر لك خدمة تعليقات Dribbble الخاصة بنا تعليقات حقيقية وعالية الجودة، وزيادة التفاعلية في عملك، وتعزيز نفوذك في صناعة التصميم.'
+        'في عصر وسائل التواصل الاجتماعي، يحدد عدد الإعجابات على منشوراتك مباشرة شعبية ونفوذ محتواك. اشتر خدمة إعجابات منشورات فيسبوك لدينا للحصول على إعجابات حقيقية وعالية الجودة التي ستعزز بفعالية جاذبية ومرئية منشوراتك، مما يساعدك على التميز على فيسبوك وجذب المزيد من الانتباه.'
+    },
+    {
+      icon: 'BiCommentDetail',
+      title: 'تعليقات فيسبوك',
+      description:
+        'التعليقات هي مؤشر حاسم لمشاركة المنشور. التعليقات عالية الجودة لا تزيد من التفاعل فحسب، بل تعزز أيضًا قيمة محتواك. يمكن أن توفر لك خدمة التعليقات على فيسبوك لدينا تعليقات حقيقية وذات صلة والتي ستحفز مزيدًا من المناقشات وترفع من نفوذك على فيسبوك.'
     },
     {
       icon: 'BiUser',
-      title: 'متابعو Dribbble',
+      title: 'أصدقاء فيسبوك',
       description:
-        'وسِّع قاعدة معجبيك على Dribbble واجذب المزيد من الناس لمتابعة أعمالك التصميمية. يمكن أن توفر لك خدمة متابعي Dribbble الخاصة بنا متابعين حقيقيين وعالي الجودة، وتعزز من مرئيتك ونفوذك في مجتمع التصميم، وتجلب لأعمالك مزيدًا من التعرض والتقدير.'
-    },
-    {
-      icon: 'BiLike',
-      title: 'إعجابات Dribbble',
-      description:
-        'عزِّز شعبية أعمالك على Dribbble واجعل المزيد من الناس يعجبون بتصميماتك. يمكن أن توفر لك خدمة إعجابات Dribbble الخاصة بنا إعجابات حقيقية وعالية الجودة، وتزيد من شعبية وجاذبية عملك، وتساعدك على التميز في صناعة التصميم.'
-    },
-    {
-      icon: 'BiEye',
-      title: 'مشاهدات Dribbble',
-      description:
-        'اجعل المزيد من الناس يرون أعمالك الرائعة على Dribbble وزِد من تعرض أعمالك. يمكن أن توفر لك خدمة مشاهدات Dribbble الخاصة بنا مشاهدات حقيقية وعالية الجودة، وتضمن أن تُقدَّر وتُلاحَظ أعمالك التصميمية من قبل المزيد من الناس، وتعزز نفوذك في صناعة التصميم.'
-    },
-    {
-      icon: 'BiBookmarkPlus',
-      title: 'حفظات Dribbble',
-      description:
-        'اجعل المزيد من الناس يضعون إشارات مرجعية على أعمالك المتميزة على Dribbble وزِد من معدل الحفظ لأعمالك. يمكن أن توفر لك خدمة حفظات Dribbble الخاصة بنا حفظات حقيقية وعالية الجودة، وتضمن أن تُقدَّر وتُحفَظ أعمالك التصميمية من قبل المزيد من الناس، وتعزز صورتك المهنية في صناعة التصميم.'
+        'امتلاك المزيد من الأصدقاء على فيسبوك ليس فقط لتوسيع دائرة علاقاتك الاجتماعية، ولكن أيضًا لزيادة التعرض لمحتواك. يمكن أن تجلب لك خدمة أصدقاء فيسبوك لدينا أصدقاء حقيقيين وعالي الجودة لتعزيز مرئيتك على وسائل التواصل الاجتماعي والحصول على المزيد من التقدير لمحتواك.'
     },
     {
       icon: 'BiShareAlt',
-      title: 'مشاركات Dribbble',
+      title: 'مشاركات فيسبوك',
       description:
-        'انشر أعمالك على Dribbble على نطاق واسع في مجتمع التصميم، مما يزيد من معدل المشاركة لأعمالك. يمكن أن توفر لك خدمة مشاركات Dribbble الخاصة بنا مشاركات حقيقية وعالية الجودة، وتضمن أن تُنشر وتُشارَك أعمالك التصميمية من قبل المزيد من الناس، مما يوسع من نفوذك في صناعة التصميم.'
+        'المشاركات هي المفتاح لانتشار المحتوى على وسائل التواصل الاجتماعي، والمعدل العالي للمشاركة يعني أن المزيد من الناس يمكنهم رؤية منشوراتك. يمكن أن توفر لك خدمة المشاركات على فيسبوك لدينا مشاركات حقيقية وعالية الجودة لضمان انتشار محتواك على نطاق واسع على فيسبوك، مما يعزز من نفوذك.'
+    },
+    {
+      icon: 'BiLike',
+      title: 'إعجابات صفحة فيسبوك',
+      description:
+        'امتلاك صفحة فيسبوك شعبية ليس فقط لتعزيز صورة العلامة التجارية الخاصة بك، ولكن أيضًا لجذب المزيد من العملاء المحتملين. يمكن أن تجلب لك خدمة إعجابات صفحة فيسبوك لدينا إعجابات حقيقية وعالية الجودة لزيادة شعبية وجاذبية صفحتك، مما يساعدك على التميز على فيسبوك.'
+    },
+    {
+      icon: 'BiPlus',
+      title: 'المزيد من فيسبوك',
+      description:
+        'لتحقيق نمو وتأثير شامل على فيسبوك، لا يكفي خدمة واحدة. يمكن أن توفر لك خدمة المزيد من فيسبوك لدينا نمواً شاملاً وعالي الجودة، بما في ذلك الإعجابات والتعليقات والمشاركات وأكثر من ذلك، لتعزيز مرئيتك وتأثيرك على وسائل التواصل الاجتماعي بشكل شامل.'
     }
   ],
   faqs: [
     {
-      title: 'هل الترويج على Dribbble قانوني؟',
+      title: 'هل استخدام خدمات ترويج فيسبوك ينتهك سياسات فيسبوك؟',
       content:
-        'يسمح Dribbble للمستخدمين بالترويج من خلال الخدمات المدفوعة طالما أنهم يتوافقون مع إرشادات المجتمع وسياساته. خدماتنا قانونية وتتوافق تمامًا.'
+        'لا، لا ينتهك ذلك. تتوافق خدماتنا تمامًا مع سياسات وإرشادات فيسبوك، مما يضمن سلامة حسابك.'
     },
     {
-      title: 'كم من الوقت تستغرق خدمات الترويج على Dribbble لتؤتي ثمارها؟',
+      title: 'كم من الوقت يستغرق لرؤية النتائج بعد بدء ترويج فيسبوك؟',
       content:
-        'هذا يعتمد على حزمة الترويج والميزانية التي تختارها. سنوفر لك وقتًا تقديريًا للتسليم بناءً على احتياجاتك المحددة. عادةً ما يمكنك رؤية النتائج الأولية في غضون 3-7 أيام عمل.'
+        'يعتمد الوقت اللازم لرؤية النتائج على عوامل مختلفة، بما في ذلك نوع الترويج والجمهور المستهدف الذي تختاره. في معظم الحالات، يمكنك البدء في رؤية آثار الترويج في غضون بضعة أيام.'
     },
     {
-      title: 'هل خدمات الترويج على Dribbble آمنة وموثوقة؟',
+      title: 'هل خدمات ترويج فيسبوك آمنة للاستخدام؟',
       content:
-        'تستخدم نظامنا تقنيات أمان رائدة في الصناعة مثل تشفير SSL لضمان خصوصية وأمان معلوماتك وأموالك. نحن لا نطلب أي معلومات حساسة منك.'
+        'بالتأكيد. نولي أهمية قصوى لخصوصيتك وأمان حسابك، ولن نطلب أبدًا كلمة مرور حسابك أو معلومات حساسة أخرى. تتم جميع المعاملات من خلال طرق دفع آمنة.'
     },
     {
-      title: 'كيف أحدد مقدار خدمات الترويج على Dribbble التي أحتاج إلى شرائها؟',
+      title: 'كم من ترويج فيسبوك يجب أن أشتري؟',
       content:
-        'هذا يعتمد على أهداف الترويج المحددة لديك والميزانية. يمكننا تقديم المشورة المهنية بناءً على احتياجاتك لمساعدتك في اختيار حزمة الترويج المناسبة. يمكنك أيضًا الشراء على دفعات والتعديل بمرونة.'
+        'هذا يعتمد تمامًا على أهدافك وميزانيتك. نوصي بالبدء بصغير وزيادة استثمارك تدريجيًا بناءً على النتائج.'
     },
     {
-      title: 'هل يمكنني الحصول على استرداد إذا لم أكن راضيًا عن خدمات الترويج على Dribbble؟',
+      title: 'هل يمكنني الحصول على استرداد للأموال إذا لم أكن راضيًا عن خدمات ترويج فيسبوك؟',
       content:
-        'إذا فشلنا في إكمال طلبك في الوقت المحدد، فسنقوم بإعادة الأموال إليك تلقائيًا. بالإضافة إلى ذلك، إذا لم تكن راضيًا عن جودة الخدمة، فسنقدم لك استرداد كامل.'
+        'نحن نقدم ضمان الرضا. إذا لم يتم تحقيق النتائج المتوقعة في الإطار الزمني المتفق عليه، فسنقدم استرداد للأموال أو خدمات إضافية للتعويض.'
     },
     {
-      title: 'هل الترويج المدفوع شائع على Dribbble؟',
+      title: 'هل يستخدم الكثير من الناس خدمات ترويج فيسبوك؟',
       content:
-        'نعم، يختار العديد من المصممين والمحترفين الإبداعيين الترويج على Dribbble لأنه مجتمع تصميمي عالي المهنية والجودة حيث يمكنهم جذب انتباه جمهورهم المستهدف بسرعة.'
+        'نعم، يستخدم كل من الأفراد والشركات على نطاق واسع خدمات ترويج فيسبوك لتوسيع نفوذهم وتحسين الوعي بالعلامة التجارية.'
     }
   ]
 }
@@ -414,7 +414,7 @@ export interface collection {
   [key: string]: shopConfig
 }
 
-export const ALL_DRIBBLE: collection = {
+export const ALL_FACEBOOK: collection = {
   EN,
   ZH,
   JP,

@@ -18,7 +18,7 @@ export const LangSwitcher = () => {
   const router = useRouter()
   const pathname = usePathname()
 
-  const reg = /^(?:\/ar|\/en|\/es|\/ja\/ru\/zh)\/[^\/]+$/
+  const reg = /^(?:\/ar|\/en|\/es|\/jp\/ru\/zh)\/[^\/]+$/
 
   const handleSwitchLanguage = (value: string) => {
     console.log(pathname)
@@ -27,11 +27,11 @@ export const LangSwitcher = () => {
       return router.push(`/${value}`)
     }
 
-    if (/^\/(?:ar|en|es|ja|ru|zh)$/.test(pathname) && value === defaultLocale) {
+    if (/^\/(?:ar|en|es|jp|ru|zh)$/.test(pathname) && value === defaultLocale) {
       return router.push('/')
     }
 
-    let path = pathname.replace(/ar|en|es|ja|ru|zh/, value)
+    let path = pathname.replace(/ar|en|es|jp|ru|zh/, value)
     console.log(path)
 
     router.push(path)
