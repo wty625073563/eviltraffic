@@ -416,7 +416,7 @@ export interface collection {
   [key: string]: shopConfig
 }
 
-export const ALL_DRIBBLE: collection = {
+export const ALL_DRIBBBLE: collection = {
   EN,
   ZH,
   JP,

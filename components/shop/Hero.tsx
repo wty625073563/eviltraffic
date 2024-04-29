@@ -1,6 +1,5 @@
 import { siteConfig } from '@/config/site'
 import { HeroType } from '@/types/shop'
-import Image from 'next/image'
 import { RoughNotation } from 'react-rough-notation'
 
 const Hero = ({ hero, color }: { hero: HeroType; color?: string }) => {
@@ -27,11 +26,10 @@ const Hero = ({ hero, color }: { hero: HeroType; color?: string }) => {
               </a>
             </div>
             <div className="relative left-4 h-full max-h-[500px] w-[65%] overflow-visible md:left-0 md:w-full">
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src={hero.image}
-                alt={hero.title}
-                width={150}
-                height={300}
+                alt={hero.title + hero.title1}
                 className="mx-auto block h-full w-full max-w-[800px] rounded-2xl object-cover"
               />
 

@@ -2,7 +2,6 @@
 import { TwitterX } from '@/components/social-icons/icons'
 import { siteConfig } from '@/config/site'
 import { WALL_OF_LOVE } from '@/config/wallOfLove'
-import Image from 'next/image'
 import Link from 'next/link'
 import { RoughNotation } from 'react-rough-notation'
 
@@ -35,7 +34,7 @@ const WallOfLove = ({ id, locale }: { id: string; locale: any }) => {
             <div className="border border-slate/10 rounded-lg p-4 flex flex-col items-start gap-3 h-fit">
               <div className="flex items-start justify-between w-full">
                 <div className="flex items-start gap-2">
-                  <Image
+                  <img
                     src={testimonial.user.image}
                     alt="maker"
                     height={40}

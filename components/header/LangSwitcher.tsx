@@ -21,8 +21,6 @@ export const LangSwitcher = () => {
   const reg = /^(?:\/ar|\/en|\/es|\/jp\/ru\/zh)\/[^\/]+$/
 
   const handleSwitchLanguage = (value: string) => {
-    console.log(pathname)
-
     if (pathname === '/') {
       return router.push(`/${value}`)
     }
@@ -32,8 +30,6 @@ export const LangSwitcher = () => {
     }
 
     let path = pathname.replace(/ar|en|es|jp|ru|zh/, value)
-    console.log(path)
-
     router.push(path)
   }
 

@@ -1,5 +1,4 @@
 import { Makers } from '@/config/makers'
-import Image from 'next/image'
 
 const SocialProof = ({ locale }: { locale: any }) => {
   return (
@@ -8,7 +7,8 @@ const SocialProof = ({ locale }: { locale: any }) => {
         <div className="flex items-center justify-center">
           {Makers.map((user, index) => {
             return (
-              <Image
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
                 key={index}
                 src={user.image}
                 alt="User"

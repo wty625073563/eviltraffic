@@ -8,13 +8,28 @@ import Products from '@/components/shop/Products'
 import { getConfig } from '@/config/shop'
 import { getDictionary, getLanguage } from '@/lib/i18n'
 
+import { Products as pds } from '@/config/products'
+import { localeNames } from '@/lib/i18n'
+
+export async function generateStaticParams() {
+  const langs = Object.keys(localeNames)
+  const products = pds.map(product => product.name.toLowerCase())
+
+  let arr: { lang: string; slug: string }[] = []
+  langs.forEach(lang => {
+    products.forEach(slug => {
+      arr.push({ lang, slug })
+    })
+  })
+
+  return arr
+}
+
 export default async function ShopPage({
   params: { lang, slug }
 }: {
   params: { lang: string; slug: string }
 }) {
-  console.log(slug)
-
   let langName = getLanguage(lang)
 
   const config = getConfig(slug, langName)

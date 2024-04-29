@@ -4,6 +4,7 @@ import { TailwindIndicator } from '@/components/TailwindIndicator'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import Footer from '@/components/footer/Footer'
 import Header from '@/components/header/Header'
+import { Toaster } from '@/components/ui/toaster'
 import { siteConfig } from '@/config/site'
 import { defaultLocale } from '@/lib/i18n'
 import { cn } from '@/lib/utils'
@@ -50,6 +51,8 @@ export default async function RootLayout({
           <Footer />
           <Analytics />
           <TailwindIndicator />
+
+          <Toaster />
         </ThemeProvider>
         {process.env.NODE_ENV === 'development' ? (
           <></>

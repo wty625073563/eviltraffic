@@ -6,16 +6,24 @@ import Link from 'next/link'
 import React from 'react'
 import { RoughNotation } from 'react-rough-notation'
 
+import LetMeKnowDialog from '@/components/shop/LetMeKnow'
 import { extractLocale } from '@/lib/i18n'
 import { usePathname } from 'next/navigation'
 
-const AllProducts = ({ id, locale }: { id: string; locale: any }) => {
+interface localeType {
+  title: string
+  description1: string
+  description2: string
+  description3: string
+}
+
+const AllProducts = ({ id, locale }: { id: string; locale: localeType }) => {
   const path = usePathname()
 
   const getLink = (name: string) => {
-    const locale = extractLocale(path)
+    const lc = extractLocale(path)
 
-    return `/${locale}/shop/${name.toLocaleLowerCase()}`
+    return `/${lc}/shop/${name.toLocaleLowerCase()}`
   }
 
   return (
@@ -28,15 +36,15 @@ const AllProducts = ({ id, locale }: { id: string; locale: any }) => {
         </h2>
         <p className="text-large text-default-500">
           {/* Don't take our word for it. Here's what they have to say. */}
-          {locale.description1}{' '}
-          <Link
+          {locale.description1} <LetMeKnowDialog btn={locale.description2} />
+          {/**<Link
             href={siteConfig.authors[0].twitter as string}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="text-primary underline"
           >
             {locale.description2}
-          </Link>
+          </Link> */}
           {locale.description3}
         </p>
       </div>

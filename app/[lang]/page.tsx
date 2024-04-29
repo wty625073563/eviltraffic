@@ -7,6 +7,15 @@ import ScrollingLogos from '@/components/home/ScrollingLogos'
 import SocialProof from '@/components/home/SocialProof'
 import { getDictionary, getLanguage } from '@/lib/i18n'
 
+import { localeNames } from '@/lib/i18n'
+
+export async function generateStaticParams() {
+  const langs = Object.keys(localeNames)
+  return langs.map(lang => {
+    return { lang }
+  })
+}
+
 export default async function LangHome({ params: { lang } }: { params: { lang: string } }) {
   let langName = getLanguage(lang)
 

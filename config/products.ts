@@ -103,3 +103,5 @@ export const Products = [
     icon: BiLogoImdb
   }
 ]
+
+export const getProduct = Products.map(product => product.name.toLowerCase())

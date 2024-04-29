@@ -13,7 +13,7 @@ const ZH = {
   productsTitle: 'YouTube 服务',
   products: [
     {
-      icon: 'BiThumbsUp',
+      icon: 'BiSolidLike',
       title: 'YouTube Video Likes',
       description:
         '在YouTube视频海洋中想获得持久人气可并非易事。我们的点赞推广服务将为您的优质内容注入人气动力,通过规模化种草点赞等营销手段持续积累正面口碑,让更多志趣相投的用户欣赏您的创作力。'
@@ -97,7 +97,7 @@ const EN = {
   productsTitle: 'YouTube Services',
   products: [
     {
-      icon: 'BiThumbsUp',
+      icon: 'BiSolidLike',
       title: 'YouTube Video Likes',
       description:
         'Gaining lasting popularity on the vast YouTube platform is no easy feat. Our like promotion service will inject vitality into your high-quality content, using large-scale seeding and other marketing tactics to continuously build a positive reputation, allowing more like-minded users to appreciate your creativity.'
@@ -180,7 +180,7 @@ const JP = {
   productsTitle: 'YouTubeサービス',
   products: [
     {
-      icon: 'BiThumbsUp',
+      icon: 'BiSolidLike',
       title: 'YouTubeビデオ「いいね」',
       description:
         '広大なYouTubeプラットフォームで長続きの人気を得るのは簡単ではありません。私たちの「いいね」プロモーションサービスは、大規模な種まき戦略などのマーケティング手法を使って、あなたの高品質なコンテンツに活力を注ぎ、好評価を継続的に築き上げ、より同じ志向の視聴者に創造性を認めてもらえるようにします。'
@@ -264,7 +264,7 @@ const RU = {
   productsTitle: 'Услуги YouTube',
   products: [
     {
-      icon: 'BiThumbsUp',
+      icon: 'BiSolidLike',
       title: 'Лайки к видео на YouTube',
       description:
         'Завоевать длительную популярность на обширной платформе YouTube - непростая задача. Наша услуга продвижения лайков вдохнет жизнь в ваш высококачественный контент, используя крупномасштабное распространение и другие маркетинговые тактики для непрерывного создания положительной репутации, позволяя все большему числу единомышленников оценить вашу креативность.'
@@ -349,7 +349,7 @@ const AR = {
   productsTitle: 'خدمات YouTube',
   products: [
     {
-      icon: 'BiThumbsUp',
+      icon: 'BiSolidLike',
       title: 'إعجابات فيديوهات YouTube',
       description:
         'الحصول على شعبية دائمة على منصة YouTube الشاسعة ليس بالأمر السهل. ستحقن خدمة ترويج الإعجابات الخاصة بنا حيوية في محتواك عالي الجودة، باستخدام التسويق على نطاق واسع وغيرها من الأساليب التسويقية لبناء سمعة إيجابية بشكل مستمر، مما يتيح لمزيد من المستخدمين المتشابهين في الاهتمامات تقدير إبداعك.'

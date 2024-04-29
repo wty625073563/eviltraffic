@@ -1,6 +1,6 @@
 import { ALL_DIGG } from './Digg'
 import { ALL_DISCORD } from './Discord'
-import { ALL_DRIBBLE } from './Dribble'
+import { ALL_DRIBBBLE } from './Dribbble'
 import { ALL_FACEBOOK } from './Facebook'
 import { ALL_GOOGLE } from './Google'
 import { ALL_IMDB } from './IMDB'
@@ -22,7 +22,7 @@ import { ALL_YOUTUBE } from './Youtube'
 const ALL_SHOP: { [key: string]: collection } = {
   ALL_DIGG,
   ALL_DISCORD,
-  ALL_DRIBBLE,
+  ALL_DRIBBBLE,
   ALL_FACEBOOK,
   ALL_GOOGLE,
   ALL_IMDB,
