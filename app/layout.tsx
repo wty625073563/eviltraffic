@@ -1,4 +1,3 @@
-import BaiDuAnalytics from '@/app/BaiDuAnalytics'
 import GoogleAnalytics from '@/app/GoogleAnalytics'
 import { TailwindIndicator } from '@/components/TailwindIndicator'
 import { ThemeProvider } from '@/components/ThemeProvider'
@@ -59,7 +58,7 @@ export default async function RootLayout({
         ) : (
           <>
             <GoogleAnalytics />
-            <BaiDuAnalytics />
+            {/* <BaiDuAnalytics /> */}
           </>
         )}
       </body>
