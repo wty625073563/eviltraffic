@@ -1,16 +1,16 @@
 import { SiteConfig } from '@/types/siteConfig'
-import { BsFacebook, BsInstagram, BsTwitterX } from 'react-icons/bs'
+import { BsTwitterX } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
 
-const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
+// const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
 
 const baseSiteConfig = {
   name: 'Evil Traffic',
   mainColor: '#5e17eb',
   description:
     'Elevate your online presence with our premium social media metrics services. Gain authentic followers, likes, comments, and shares swiftly. Boost visibility, authority, and brand appeal in the digital realm. Stand out online effortlessly!',
-  url: 'https://www.eviltrallic.com',
-  ogImage: 'https://landingpage.weijunext.com/og.png',
+  url: 'https://www.eviltraffic.com',
+  // ogImage: 'https://landingpage.weijunext.com/og.png',
   metadataBase: '/',
   keywords: [
     'buy instagram followers',
@@ -20,12 +20,12 @@ const baseSiteConfig = {
   ],
   authors: [
     {
-      name: 'EvilTrallic',
-      url: 'https://www.eviltrallic.com',
-      twitter: 'https://twitter.com/weijunext'
+      name: 'EvilTraffic',
+      url: 'https://www.eviltraffic.com',
+      twitter: 'https://twitter.com/eviltraffic3'
     }
   ],
-  creator: '@EvilTrallic',
+  creator: '@EvilTraffic',
   // openSourceURL: 'https://github.com/weijunext/landing-page-boilerplate',
   themeColors: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
@@ -38,15 +38,15 @@ const baseSiteConfig = {
     apple: '/logo.png'
   },
   headerLinks: [
-    { name: 'Twitter', href: 'https://twitter.com/weijunext', icon: BsTwitterX },
-    { name: 'Instagram', href: 'https://twitter.com/weijunext', icon: BsInstagram },
-    { name: 'Facebook', href: 'https://twitter.com/weijunext', icon: BsFacebook }
+    { name: 'Twitter', href: 'https://x.com/eviltraffic3', icon: BsTwitterX }
+    // { name: 'Instagram', href: 'https://twitter.com/weijunext', icon: BsInstagram },
+    // { name: 'Facebook', href: 'https://twitter.com/weijunext', icon: BsFacebook }
   ],
   footerLinks: [
     { name: 'email', href: 'mailto:wtydev9@gmail.com', icon: MdEmail },
-    { name: 'Twitter', href: 'https://twitter.com/weijunext', icon: BsTwitterX },
-    { name: 'Instagram', href: 'https://twitter.com/weijunext', icon: BsInstagram },
-    { name: 'Facebook', href: 'https://twitter.com/weijunext', icon: BsFacebook }
+    { name: 'Twitter', href: 'https://x.com/eviltraffic3', icon: BsTwitterX }
+    // { name: 'Instagram', href: 'https://twitter.com/weijunext', icon: BsInstagram },
+    // { name: 'Facebook', href: 'https://twitter.com/weijunext', icon: BsFacebook }
   ],
   footerProducts: [
     { url: 'https://weijunext.com/', name: 'J实验室' },

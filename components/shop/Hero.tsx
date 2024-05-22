@@ -1,5 +1,6 @@
 import { siteConfig } from '@/config/site'
 import { HeroType } from '@/types/shop'
+import Link from 'next/link'
 import { RoughNotation } from 'react-rough-notation'
 
 const Hero = ({ hero, color }: { hero: HeroType; color?: string }) => {
@@ -18,12 +19,21 @@ const Hero = ({ hero, color }: { hero: HeroType; color?: string }) => {
               <h2 className="mb-6 max-w-[528px] text-xl text-[#636262] md:mb-10 lg:mb-12">
                 {hero.description}
               </h2>
-              <a
+              {/* <a
                 href="#"
                 className="mb-6 inline-block rounded-xl bg-black px-8 py-4 text-center font-semibold text-white [box-shadow:rgb(19,_83,_254)_6px_6px] md:mb-10 lg:mb-12"
               >
                 {hero.btn}
-              </a>
+              </a> */}
+              <Link
+                href="https://play.google.com/store/apps/details?id=com.eviltraffic"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <div className="mb-6 inline-block rounded-xl bg-black px-8 py-4 text-center font-semibold text-white [box-shadow:rgb(19,_83,_254)_6px_6px] md:mb-10 lg:mb-12">
+                  {hero.btn}
+                </div>
+              </Link>
             </div>
             <div className="relative left-4 h-full max-h-[500px] w-[65%] overflow-visible md:left-0 md:w-full">
               {/* eslint-disable-next-line @next/next/no-img-element */}
