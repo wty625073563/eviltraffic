@@ -11,6 +11,8 @@ import { getDictionary, getLanguage } from '@/lib/i18n'
 import { Products as pds } from '@/config/products'
 import { localeNames } from '@/lib/i18n'
 
+export const runtime = 'edge'
+
 export async function generateStaticParams() {
   const langs = Object.keys(localeNames)
   const products = pds.map(product => product.name.toLowerCase())

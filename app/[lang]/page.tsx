@@ -9,6 +9,8 @@ import { getDictionary, getLanguage } from '@/lib/i18n'
 
 import { localeNames } from '@/lib/i18n'
 
+export const runtime = 'edge'
+
 export async function generateStaticParams() {
   const langs = Object.keys(localeNames)
   return langs.map(lang => {
