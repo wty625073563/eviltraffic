@@ -9,7 +9,7 @@ const baseSiteConfig = {
   mainColor: '#5e17eb',
   description:
     'Elevate your online presence with our premium social media metrics services. Gain authentic followers, likes, comments, and shares swiftly. Boost visibility, authority, and brand appeal in the digital realm. Stand out online effortlessly!',
-  url: 'https://www.eviltraffic.com',
+  url: 'https://eviltraffic.com',
   // ogImage: 'https://landingpage.weijunext.com/og.png',
   metadataBase: '/',
   keywords: [
@@ -21,7 +21,7 @@ const baseSiteConfig = {
   authors: [
     {
       name: 'EvilTraffic',
-      url: 'https://www.eviltraffic.com',
+      url: 'https://eviltraffic.com',
       twitter: 'https://twitter.com/eviltraffic3'
     }
   ],
